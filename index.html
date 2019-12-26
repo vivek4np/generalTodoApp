@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> TODO App</title>
+
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <script type="text/javascript" src="scripts/main.js"></script>
+  </head>
+  <body>
+    <div class="main-container">
+
+      <div class="list-container">
+        
+        <div class="list-heading">
+          <h3>Search Lists</h3>
+        </div>
+
+        <div id="listArea" class="list-area">
+
+        </div>
+        
+        <div class="input-list-area">
+          <input type="text" id="listName" class="list-name-input" placeholder="Enter list name..." onkeypress="todoApp.handleListEnterKey(event)">
+          <button class="add-list-name" id="addListButton" onclick="todoApp.addList()">Add</button>    
+        </div>
+        
+      </div>
+      
+        <div id="taskArea" class="task-area">
+        
+        </div> 
+
+    </div>
+    
+  </body>
+</html>
