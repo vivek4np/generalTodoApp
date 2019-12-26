@@ -144,13 +144,6 @@ var todoApp = function () {
       }
   }
 
-  //function to use enter key to save the edited task
-  // function handleEditTaskEnterKey(event) {
-  //   if (event.keyCode === 13 && !event.shiftKey) {
-  //     saveEditTask(event);
-  //   }
-  // }
-
   //function to add new list to the main todoList object and call createList function to create the list element.
   function addList(){
     var listInput = document.getElementById('listName');
